@@ -97,8 +97,10 @@ void GamePanel::showObj() {
   blueP.show();
   blueP.showObj();
   
-  //////
+  // Labels
   
+  
+  // Player 1 Rectangle
   if(player1Turn)
     ofSetColor(255,255,0);
   else
@@ -110,7 +112,7 @@ void GamePanel::showObj() {
   //ofDrawBitmapString("Player 1" ,width*1/4+(width/13), height/10+(width/34));
   
   
-  //Player 2 Rectangle
+  // Player 2 Rectangle
   if(!player1Turn)
     ofSetColor(255,255,0);
   else
